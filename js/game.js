@@ -91,7 +91,7 @@ function restart() {
     y: 10 * box
   }
   dir = null;
-  game = setInterval(drawGame, 300);
+  game = setInterval(drawGame, 150);
 }
 
 function eatTail() {
