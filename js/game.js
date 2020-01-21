@@ -33,13 +33,13 @@ let dir;
 
 function direction(event) {
   let index = event.keyCode;
-  if (index == 37 && dir != "right")
+  if (index == 65 && dir != "right")
   dir = "left";
-  else if (index == 38 && dir != "down")
+  else if (index == 87 && dir != "down")
   dir = "up";
-  else if (index == 39 && dir != "left")
+  else if (index == 68 && dir != "left")
   dir = "right";
-  else if (index == 40 && dir != "up")
+  else if (index == 83 && dir != "up")
   dir = "down";
 }
 
