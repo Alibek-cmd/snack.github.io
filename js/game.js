@@ -84,6 +84,7 @@ function checkClick(e) {
 }
 
 function restart() {
+  clearInterval(game);
   score = 0;
   snack.length = 1;
   snack[0] = {
